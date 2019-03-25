@@ -28,8 +28,8 @@ static const int testnet_port = 18770;
 static unsigned char pchMessageStart[4] = { 0xF1, 0xED, 0xE2, 0x8F };
 static unsigned char pchMessageStart_testnet[4] = { 0x5B, 0x1E, 0x7F, 0x63 };
 
-#define REQUIRE_VERSION 170018
-static const int minimunClientVersion = 170018;
-static const int PROTOCOL_VERSION = 170019; //Upcoming SafeNodes Update
+#define REQUIRE_VERSION 170020
+static const int minimunClientVersion = 170020;
+static const int PROTOCOL_VERSION = 170021; //Upcoming SafeNodes Update
 static const int INIT_PROTO_VERSION = 212; //Safecoin
 #endif // __INCLUDED_COIN_H__

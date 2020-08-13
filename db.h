@@ -106,6 +106,15 @@ public:
     if (!ip.IsRoutable()) return false;
     if (clientVersion && clientVersion < REQUIRE_VERSION) return false;
     if (blocks && blocks < GetRequireHeight()) return false;
+	
+	// check clientSubVersion in coin.h
+	if ((clientSubVersion != CSV1)	&&
+		(clientSubVersion != CSV2)	&&
+		(clientSubVersion != CSV3)	&&
+		(clientSubVersion != CSV4)	&&
+		(clientSubVersion != CSV5)	&&
+		(clientSubVersion != CSV6))
+	return false;
 
     if (total <= 3 && success * 2 >= total) return true;
 

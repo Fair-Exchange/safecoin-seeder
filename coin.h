@@ -7,6 +7,14 @@
 
 #include <string>
 
+//actual clientSubVersion
+static const std::string CSV1 = "/SafeNode:2.0.6-rc1/";
+static const std::string CSV2 = "/SafeNode:2.0.6-1/";
+static const std::string CSV3 = "/SafeNode:2.0.6-2/";
+static const std::string CSV4 = "/SafeNode:2.0.6-3/";
+static const std::string CSV5 = "/SafeNode:2.0.6-4/";
+static const std::string CSV6 = "/SafeNode:2.0.6-4(bitcore)/";
+
 static const std::string mainnet_seeds[] = {"dnsseedua.local.support",
 					    "dnsseedna.local.support",
 					    "dnsseedeu.local.support"
